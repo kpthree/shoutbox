@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Shoutbox</title>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+    </head>
+    <body>
+    <div id="topbar">
+        <h1 id="title">Hackathon Shout</h1>
+    </div>
+    <br/>
+    <div id="main-shouts" class="left">
+        <div id="shouts">
+            <div class="one-shout"></div>
+        </div><br/><br/>
+        <div>
+            <input type="button" id="clear" value="Clear Shouts" class="h-btn-white-small">
+        </div>
+    </div>
+    <div id="main" class="right">
+        <div>
+            <span> Name: </span><br/>
+            <input type="textbox" id="name"/>
+        </div><br/>
+        <div>
+            <textarea id="shout-text"></textarea>
+        </div><br/>
+        <div>
+            <input type="button" id="shout-button" value="Shout" class="h-btn-white-small"/>
+        </div><br/><br/>
+        <div id="error"></div>
+    </div>
+    <div class="clearBoth"></div>
+    <script src="lib/socket.io.min.js"></script>
+    <script src="lib/jquery.min.js"></script>
+    <script src="index.js"></script>
+    </body>
+</html>

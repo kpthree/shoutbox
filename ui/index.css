@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    border: 0;
+    font-family: "Ubuntu", "Calibri";
+    font-size: 14px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+#name {
+    font-family: "Ubuntu", "Calibri";
+    width: 300px;
+}
+
+#shout-text {
+    font-family: "Ubuntu", "Calibri";
+    height: 100px;
+    width: 300px;
+}
+
+#main {
+    margin: 0 200px 0 0;
+}
+
+#title {
+    text-align: center;
+}
+
+#main-shouts {
+    padding: 0 0 0 10;
+    -webkit-box-shadow: 1px -1px 6px 2px #C2C2C2;
+    box-shadow: 1px -1px 6px 2px #C2C2C2; 
+    margin: 0 0 0 60px;
+    max-width: 500px;
+}
+
+.one-shout {
+    padding: 10px 0 10px 0;
+    border-style: ridge;
+    border-width: 0 0 2px 0;
+}
+
+#error {
+    color: red;
+}
+
+#topbar {
+    background: #bfc0c2 !important;
+    background: -moz-linear-gradient(top,  #bfc0c2 0%, #58595b 2%, #48494b 5%, #414244 7%, #444547 10%, #414244 12%, #434446 14%, #404143 17%, #3c3d3f 48%, #333436 55%, #323335 67%, #2d2e30 74%, #2b2c2e 93%, #212224 95%, #3e3f41 98%, #3a3a3a 100%) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bfc0c2), color-stop(2%,#58595b), color-stop(5%,#48494b), color-stop(7%,#414244), color-stop(10%,#444547), color-stop(12%,#414244), color-stop(14%,#434446), color-stop(17%,#404143), color-stop(48%,#3c3d3f), color-stop(55%,#333436), color-stop(67%,#323335), color-stop(74%,#2d2e30), color-stop(93%,#2b2c2e), color-stop(95%,#212224), color-stop(98%,#3e3f41), color-stop(100%,#3a3a3a)) !important;
+    background: -webkit-linear-gradient(top,  #bfc0c2 0%,#58595b 2%,#48494b 5%,#414244 7%,#444547 10%,#414244 12%,#434446 14%,#404143 17%,#3c3d3f 48%,#333436 55%,#323335 67%,#2d2e30 74%,#2b2c2e 93%,#212224 95%,#3e3f41 98%,#3a3a3a 100%) !important;
+    background: -o-linear-gradient(top,  #bfc0c2 0%,#58595b 2%,#48494b 5%,#414244 7%,#444547 10%,#414244 12%,#434446 14%,#404143 17%,#3c3d3f 48%,#333436 55%,#323335 67%,#2d2e30 74%,#2b2c2e 93%,#212224 95%,#3e3f41 98%,#3a3a3a 100%) !important;
+    background: -ms-linear-gradient(top,  #bfc0c2 0%,#58595b 2%,#48494b 5%,#414244 7%,#444547 10%,#414244 12%,#434446 14%,#404143 17%,#3c3d3f 48%,#333436 55%,#323335 67%,#2d2e30 74%,#2b2c2e 93%,#212224 95%,#3e3f41 98%,#3a3a3a 100%) !important;
+    background: linear-gradient(to bottom,  #bfc0c2 0%,#58595b 2%,#48494b 5%,#414244 7%,#444547 10%,#414244 12%,#434446 14%,#404143 17%,#3c3d3f 48%,#333436 55%,#323335 67%,#2d2e30 74%,#2b2c2e 93%,#212224 95%,#3e3f41 98%,#3a3a3a 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfc0c2', endColorstr='#3a3a3a',GradientType=0 ) !important;
+    color: #FFFFFF;
+}
